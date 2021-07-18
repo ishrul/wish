@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link rel="stylesheet" href="styles/style-1.css">
+    <script src="https://kit.fontawesome.com/de82143442.js" crossorigin="anonymous"></script>
+
+    <style>
+        .form-container {
+            background-color: black;
+            width: 250px;
+            height: 350px;
+            padding: 50px;
+            border-radius: 10px;
+            box-shadow: 10px 5px 20px white;
+        }
+
+        body {
+            background-image: url(images/images.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 500px;
+        }
+
+        p {
+            color: white;
+        }
+
+        .form-name {
+            color: rgb(247, 195, 101);
+        }
+
+        button {
+            margin-top: 40px;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: rgb(95, 95, 236);
+            color: white;
+        }
+
+        .log-in a {
+            margin-top: 40px;
+            text-decoration: none;
+            color: rgb(231, 248, 184);
+        }
+
+        .log-in:hover a {
+            font-weight: 600;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="header">
+                <ul>
+                    <li><a href="home.html">home</a></li>
+                    <li><a href="form.html">Form</a></li>
+                    <li><a href="">location</a></li>
+                    <li><a href="">contuct us</a></li>
+                </ul>
+                <ul>
+                    <li> <a class="icon" href="#"><i class="fas fa-user-circle"></i></a></li>
+                    <li><a class="icon" href="#"><i class="fas fa-sign-out-alt"></i></a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="form-container">
+            <nav>
+                <h1 class="form-name animate__animated animate__backInRight">GYMFIT FITNESS CENTER</h1>
+                <form action="">
+                    <p>Name:</p>
+                    <input placeholder="Enter You Email" type="text"></p>
+                    <p>Password:</p>
+                    <input placeholder="Enter Your Password" type="password">
+                    <br>
+                    <button type="submit">Sign in</button>
+                    <p class="log-in"><a href="#">haven't you any account?</a></p>
+                </form>
+            </nav>
+        </section>
+    </main>
+</body>
+
+</html>
